@@ -1,3 +1,4 @@
+"use strict";
 // console.log("new 14");
 function add(num1, num2, para, showResult) {
     if (showResult) {
@@ -7,10 +8,10 @@ function add(num1, num2, para, showResult) {
         return num1 + num2;
     }
 }
-var number1 = 4;
-var number2 = 3.5;
-var printResult = true;
-var newPara = "this is me";
+const number1 = 4;
+const number2 = 3.5;
+const printResult = true;
+const newPara = "this is me";
 add(number1, number2, newPara, printResult);
 // const result= add(number1,number2,printResult)
 // console.log(result);

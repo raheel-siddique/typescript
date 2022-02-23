@@ -1,3 +1,4 @@
+"use strict";
 // console.log("goesss!!!");
 // core types:
 // 1)number   1, 4.5 , -10
@@ -10,7 +11,7 @@
 function add(num1, num2) {
     return num1 + num2;
 }
-var number1 = 4;
-var number2 = 8.9;
-var result = add(number1, number2);
+const number1 = 4;
+const number2 = 8.9;
+const result = add(number1, number2);
 console.log(result);

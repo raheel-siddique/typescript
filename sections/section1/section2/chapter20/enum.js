@@ -1,3 +1,4 @@
+"use strict";
 // console.log("new 20");
 // in core types:
 // Enum is also not in js
@@ -8,7 +9,7 @@ var Role;
     Role[Role["ADMIN"] = 5] = "ADMIN";
     Role["READ_ONLY"] = "this is first";
 })(Role || (Role = {}));
-var person = {
+let person = {
     name: "Raheel",
     age: 20,
     role: Role.ADMIN

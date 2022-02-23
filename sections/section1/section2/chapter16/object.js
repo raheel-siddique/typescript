@@ -1,3 +1,4 @@
+"use strict";
 // console.log("new 16");
 // in core types:
 // object:
@@ -9,7 +10,7 @@
 // console.log(person.name);
 // but you cant access this is ts
 // you have to define object type
-var person = {
+const person = {
     name: "Raheel",
     age: 10
 };
